@@ -9,8 +9,11 @@ body{
   margin-left: 75%;
   transition: all 1s;
   background-color:black ;
-  
+  min-width: 550px;
+  max-width: 450px;
   flex-wrap: wrap;
+  min-height: 310px;
+  max-height:500px ;
 }
 .img:hover{
   transform:  scale(1.1);
